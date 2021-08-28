@@ -1,0 +1,19 @@
+.banner__slider_btn {
+    font-size: 0;
+    color: transparent;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.banner__slider_btn::after {
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+
+    border-top: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+}

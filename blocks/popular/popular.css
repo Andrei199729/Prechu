@@ -1,0 +1,7 @@
+.popular {
+    width: 100%;
+    background-image: url(../../images/Layer6.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+}

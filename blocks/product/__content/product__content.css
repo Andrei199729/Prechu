@@ -1,0 +1,6 @@
+.product__content {
+    margin: 75px auto 45px;
+    width: 940px;
+    min-height: 370px;
+    display: flex;
+}
