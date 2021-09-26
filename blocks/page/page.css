@@ -1,5 +1,5 @@
 .page {
     margin: 0 auto;
-    width: 1250px;
+    max-width: 1250px;
     font-family: 'Quicksand', sans-serif;
 }

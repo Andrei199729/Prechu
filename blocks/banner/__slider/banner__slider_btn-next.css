@@ -1,4 +1,25 @@
 .banner__slider_btn-next {
     right: 90px;
     transform: rotate(135deg);
+    transition: right .2s linear;
+}
+
+.banner__slider_btn-next:hover {
+    right: 85px;
+}
+
+@media screen and (max-width: 960px) {
+    .banner__slider_btn-next {
+        right: calc(90px - 55px);
+    }
+
+    .banner__slider_btn-next:hover {
+        right: calc(90px - 65px);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner__slider_btn-next {
+        display: none;
+    }
 }

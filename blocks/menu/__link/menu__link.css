@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.menu__link::after{
+.menu__link::after {
     content: "";
     display: block;
     border-top: 2px solid #5094F2;
@@ -18,7 +18,6 @@
     left: 0;
     z-index: 1;
     opacity: 0;
-
     transition: opacity .1s linear, font-weight .1s linear;
 }
 
@@ -27,7 +26,8 @@
     font-weight: bold;
 }
 
-.menu__link:hover::after, .menu__link.active::after {
+.menu__link:hover::after,
+.menu__link.active::after {
     opacity: 1;
 }
 

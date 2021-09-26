@@ -4,3 +4,10 @@
     color: #6F7173;
     line-height: 33px;
 }
+
+@media screen and (max-width: 960px) {
+    .product__paragraph {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}

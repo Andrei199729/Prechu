@@ -1,6 +1,29 @@
 .cards__item {
+    box-sizing: border-box;
     margin-top: 75px;
-    width: 250px;
+    max-width: 250px;
     min-height: 280px;
     text-align: center;
+}
+
+@media screen and (max-width: 1130px) {
+    .cards__item {
+        max-width: 230px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .cards__item {
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cards__item {
+        margin-top: 5px;
+        max-width: 100%;
+        min-height: 280px;
+        display: flex;
+        align-items: center;
+    }
 }

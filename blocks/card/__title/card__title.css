@@ -4,3 +4,19 @@
     font-size: 20px;
     color: rgb(79, 79, 192);
 }
+
+@media screen and (max-width: 640px) {
+    .card__title {
+        font-size: calc(35px/1.6);
+        text-align: start;
+        margin-left: 27px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .card__title {
+        font-size: 17px;
+        text-align: start;
+        margin-left: 13px;
+    }
+}

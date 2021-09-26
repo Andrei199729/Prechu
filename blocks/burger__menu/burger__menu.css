@@ -1,0 +1,20 @@
+.burger__menu {
+    width: 55px;
+    height: 40px;
+    background-color: #5094F2;
+    padding: 10px 0;
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+    .burger__menu {
+        display: block;
+    }
+}

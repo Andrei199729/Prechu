@@ -1,5 +1,34 @@
 .banner__image-iphone {
-    margin-top: 30px;
-    width: 345px;
-    height: 435px;
+    margin-top: calc(100vw/30);
+    max-width: 345px;
+    min-height: 435px;
+}
+
+@media screen and (max-width: 1130px) {
+    .banner__image-iphone {
+        max-width: calc(345px - 10vw);
+        min-height: calc(435px - 10vw);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .banner__image-iphone {
+        max-width: calc(345px - 14vw);
+        min-height: calc(435px - 14vw);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner__image-iphone {
+        max-width: calc(133px + 6 * (100vw/1250));
+        min-height: calc(133px + 6 * (100vw/1250));
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .banner__image-iphone {
+        max-width: calc(345px - 65vw);
+        min-height: calc(435px - 65vw);
+        margin-right: 10px;
+    }
 }

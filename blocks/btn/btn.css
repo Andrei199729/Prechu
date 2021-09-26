@@ -2,9 +2,29 @@
     display: flex;
     align-items: center;
     border: 0;
-    padding: 0 10px 0 0;
+    padding: 0 calc(100vw/120) 0 0;
     margin-left: 13px;
-    font-size: 22px;
+    font-size: calc(22px - .3vw);
     color: #fff;
     font-weight: normal;
+}
+
+@media screen and (max-width: 960px) {
+    .btn {
+        font-size: calc(22px - .5vw);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .btn {
+        margin-left: 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .btn {
+        font-size: 15px;
+        padding-right: 6px;
+    }
 }

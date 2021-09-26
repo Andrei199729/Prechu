@@ -3,3 +3,9 @@
     height: 45px;
     margin: 45px 140px 0 0;
 }
+
+@media screen and (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+}

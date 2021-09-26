@@ -1,6 +1,18 @@
 .product__content {
     margin: 75px auto 45px;
-    width: 940px;
+    max-width: 940px;
     min-height: 370px;
     display: flex;
+}
+
+@media screen and (max-width: 960px) {
+    .product__content {
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .product__content {
+        flex-direction: column;
+    }
 }

@@ -1,5 +1,21 @@
 .btn__image {
-    width: 23px;
-    height: 23px;
+    max-width: 23px;
+    max-height: 23px;
     margin: 9px 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .btn__image {
+        max-width: 30px;
+        max-height: 30px;
+        margin: 7px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .btn__image {
+        max-width: 30px;
+        max-height: 30px;
+        margin: 6px;
+    }
 }

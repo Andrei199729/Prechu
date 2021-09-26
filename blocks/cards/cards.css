@@ -1,8 +1,24 @@
 .cards {
-    width: 1020px;
+    box-sizing: border-box;
+    max-width: 1020px;
     margin: -10px auto 30px;
     padding: 0;
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+
+@media screen and (max-width: 1130px) {
+    .cards {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cards {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+    }
 }

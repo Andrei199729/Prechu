@@ -1,4 +1,10 @@
 .btn__sign {
     background-color: #5094F2;
     border-radius: 5px;
+    transition: background-color .2s linear;
+}
+
+.btn__sign:hover {
+    background-color: #2058a7;
+    cursor: pointer;
 }
