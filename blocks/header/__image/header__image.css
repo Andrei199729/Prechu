@@ -1,5 +1,6 @@
 .header__image {
-    max-width: 200px;
+    max-width: 150px;
+    min-height: 36px;
     margin-left: 60px;
 }
 
