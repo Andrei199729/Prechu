@@ -15,21 +15,21 @@
 
 @media screen and (max-width: 960px) {
     .banner__title {
-        font-size: calc(34px - .1vw);
-        line-height: calc(64px - .1vw);
+        font-size: 28px;
+        line-height: 38px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .banner__title {
-        font-size: calc(17px + 6 * (100vw/1250));
-        line-height: calc(31px + 6 * (100vw/1250));
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 
 @media screen and (max-width: 340px) {
     .banner__title {
-        font-size: calc(14px + 6 * (100vw/1250));
-        line-height: calc(25px + 6 * (100vw/1250));
+        font-size: 18px;
+        line-height: 26px;
     }
 }

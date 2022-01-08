@@ -13,22 +13,23 @@
 
 @media screen and (max-width: 960px) {
     .banner__image-iphone {
-        max-width: calc(345px - 14vw);
-        min-height: calc(435px - 14vw);
+        max-width: 215px;
+        min-height: 215px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .banner__image-iphone {
-        max-width: calc(133px + 6 * (100vw/1250));
-        min-height: calc(133px + 6 * (100vw/1250));
+        max-width: 176px;
+        min-height: 176px;
+        margin-right: 7px;
     }
 }
 
 @media screen and (max-width: 340px) {
     .banner__image-iphone {
-        max-width: calc(345px - 65vw);
-        min-height: calc(435px - 65vw);
+        max-width: 125px;
+        min-height: 125px;
         margin-right: 10px;
     }
 }

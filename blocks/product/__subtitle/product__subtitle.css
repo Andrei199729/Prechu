@@ -1,13 +1,17 @@
 .product__subtitle {
-    margin: 0 0 23px 10px ;
+    display: block;
+    margin: 0 0 23px 10px;
     font-size: 26px;
     color: #6F7173;
     line-height: 48px;
+    text-align: center;
 }
 
 @media screen and (max-width: 960px) {
     .product__subtitle {
-        font-size: 20px;
+        font-size: 15px;
         line-height: 20px;
+        margin-left: 0;
+        text-align: center;
     }
 }

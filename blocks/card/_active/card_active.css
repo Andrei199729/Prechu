@@ -1,4 +1,4 @@
-.cards__item_active {
+.card_active {
     border: 3px solid #b0aeae;
     border-radius: 15%;
     cursor: pointer;

@@ -9,17 +9,19 @@
     <title>Prechu</title>
 </head>
 
-<body class="page">
+<body class="page" id="home">
 
     <!-- Header -->
     <header class="header">
-        <img class="header__image" src="./images/logo.svg" alt="Prechu">
+        <a class="header__logo" href="#home">
+            <img class="header__image" src="./images/logo.svg" alt="Prechu">
+        </a>
         <nav class="menu">
             <ul class="menu__links">
-                <li><a class="menu__link active" href="#">Home</a></li>
-                <li><a class="menu__link" href="#">Products</a></li>
-                <li><a class="menu__link" href="#">Services</a></li>
-                <li><a class="menu__link" href="#">Contact</a></li>
+                <li><a class="menu__link menu__link-home" href="#home">Home</a></li>
+                <li><a class="menu__link menu__link-products" href="#popular">Products</a></li>
+                <li><a class="menu__link menu__link-services" href="#product">Services</a></li>
+                <li><a class="menu__link menu__link-contact" href="#contacts">Contact</a></li>
             </ul>
         </nav>
         <button class="burger__menu" id="burger_menu" type="button">
@@ -48,16 +50,16 @@
         <!-- /Banner -->
 
         <!-- Popular -->
-        <section class="popular">
+        <section class="popular" id="popular">
             <ul class="cards">
-                <li class="cards__item cards__item-pencil ">
+                <li class="cards__item cards__item-pencil">
                     <img class="card__image" src="./images/pencil.svg" alt="Pencil">
                     <div>
                         <h2 class="card__title">Contrary to popular</h2>
                         <p class="card__description">Lorem Ipsum is not simply random text. It has roots in a piece </p>
                     </div>
                 </li>
-                <li class="cards__item cards__item-electronics cards__item_active">
+                <li class="cards__item cards__item-electronics">
                     <img class="card__image" src="./images/device.svg" alt="Device">
                     <div>
                         <h2 class="card__title">Contrary to popular</h2>
@@ -76,16 +78,18 @@
         <!-- /Popular -->
 
         <!-- Product -->
-        <section class="product">
+        <section class="product" id="product">
             <article class="product__content">
-                <div class="product__column">
                     <h2 class="product__title">The Shopping cart</h2>
                     <img class="product__image" src="./images/cart.png" alt="Card blue">
-                </div>
                 <div class="product__description">
                     <h3 class="product__subtitle">Some Bullet text here</h3>
                     <p class="product__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever When an unknown printer took a galley of type and scrambled It to make a type specimen book. It has survived
                         not only five centuries But also the leap into electronic typesetting, Remaining essentially unchanged. It was popularised The release of Letraset sheets containing Lorem Ipsum passages</p>
+                        <p class="product__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever When an unknown printer took a galley of type and scrambled It to make a type specimen book. It has survived
+                            not only five centuries But also the leap into electronic typesetting, Remaining essentially unchanged. It was popularised The release of Letraset sheets containing Lorem Ipsum passages</p>
+                            <p class="product__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum has been the industry's standard dummy text ever When an unknown printer took a galley of type and scrambled It to make a type specimen book. It has survived
+                                not only five centuries But also the leap into electronic typesetting, Remaining essentially unchanged. It was popularised The release of Letraset sheets containing Lorem Ipsum passages</p>
                 </div>
             </article>
         </section>
@@ -95,10 +99,11 @@
     <!-- /Content -->
 
     <!-- /Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <p class="footer__copy">Copyright &copy; 2021. Rahalevich Andrei</p>
     </footer>
     <!-- /Footer -->
+    <script src="./js/script.js "></script>
 </body>
 
 </html>

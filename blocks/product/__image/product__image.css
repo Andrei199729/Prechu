@@ -1,3 +1,5 @@
 .product__image {
-    max-width: calc(100vw/1.6);
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }

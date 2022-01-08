@@ -18,6 +18,12 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .banner__item {
+        max-width: 472px;
+    }
+}
+
 @media screen and (max-width: 340px) {
     .banner__item {
         max-width: 300px;
